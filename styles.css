@@ -1,0 +1,29 @@
+/* Importação de arquivos CSS externos */
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/carrossel.css");
+@import url("styles/topicos.css");
+@import url("styles/contato.css");
+@import url("styles/rodapé.css");
+
+/* Definindo variáveis de cores e fontes */
+:root {
+    --cor-de-fundo: #EBECEE; /* Cor de fundo principal */
+    --branco: #FFFFFF;       /* Cor branca */
+    --laranja: #EB9B00;      /* Cor laranja */
+    --azul-degrade: linear-gradient(97.54deg, #002f52 35.49%, #326589 165.37%); /* Gradiente azul */
+    --fonte-principal: "Poppins", sans-serif; /* Fonte principal */
+    --azul: #002F52;         /* Cor azul */
+    --fonte-secundario: "Josefin Sans", sans-serif; /* Fonte secundária */
+    --preto: #000000;        /* Cor preta */
+    --cinza: #474646;        /* Cor cinza */
+    --cinza-claro: #858585;  /* Cor cinza claro */
+}
+
+/* Estilo básico do body */
+body {
+    background-color: var(--cor-de-fundo);  /* Cor de fundo do corpo */
+    font-family: var(--fonte-principal);     /* Fonte principal */
+    font-size: 16px;                         /* Tamanho da fonte */
+    font-weight: 400;                        /* Peso da fonte */
+}
